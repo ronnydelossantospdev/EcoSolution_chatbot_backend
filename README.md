@@ -15,7 +15,7 @@
 
     - [📦 Archivos generados durante el entrenamiento](#-archivos-generados-durante-el-entrenamiento)
 
-    - [⚡ Entrenamiento en Paralelo](#-entrenamiento-en-paralelo)
+    - [⚡ Entrenamiento](#-entrenamiento)
 
     - [🌐 API del Proyecto](#-api-del-proyecto)
 
@@ -47,7 +47,7 @@
 
 # 📌 Descripción del Proyecto
 
-El **EcoSolution_chatbot_backend** es una API desarrollada en **Python** cuyo objetivo principal es entrenar y ejecutar un modelo de Machine Learning utilizando procesamiento en paralelo (multihilos).
+El **EcoSolution_chatbot_backend** es una API desarrollada en **Python** cuyo objetivo principal es entrenar y ejecutar un modelo de Machine Learning.
 
 Este sistema permite:
 
@@ -124,29 +124,13 @@ Cuando el modelo es entrenado, se generan los siguientes archivos:
 
 ---
 
-### ⚡ Entrenamiento en Paralelo
+### ⚡ Entrenamiento
 
-El proyecto incluye dos scripts para entrenar el modelo usando multihilos.
-
-🔹 Entrenamiento con 2 Hilos
+El proyecto incluye un scripts para entrenar el modelo.
 
 ```bash
-algoritmo_modelo_2hilos.py
+algoritmo_modelo.py
 ```
-
-Ejecuta el entrenamiento utilizando dos hilos de procesamiento paralelo.
-
----
-<br>
-
-🔹 Entrenamiento con 3 Hilos
-```bash
-algoritmo_modelo_3hilos.py
-```
-
-Ejecuta el entrenamiento utilizando tres hilos de procesamiento paralelo.
-
-
 <br>
 
 ---
